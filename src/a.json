@@ -1,0 +1,114 @@
+{
+  "workbench.statusBar.visible": false,
+  "window.titleBarStyle": "custom",
+
+  "workbench.colorCustomizations": {
+      "sideBar.background": "#13121b",
+      "editor.background": "#100b20",
+      "sideBar.border": "#330163",
+      "sideBarSectionHeader.background": "#390083",
+
+  "editor.foreground": "#ffffff",
+  "editorIndentGuide.background": "#474747",
+  "activityBarBadge.background": "#6b03f3",
+  "toolbar.hoverBackground": "#8400ff",
+  "editorGroupHeader.tabsBackground": "#100b20",
+  "editor.selectionBackground": "#8400ff6e",
+  "editorBracketHighlight.foreground1": "#ffae00",
+  },
+
+      
+  "editor.tokenColorCustomizations": {
+    "comments": "#7c7c7c",
+    "textMateRules": [
+      // CSS
+      {
+        "name": "CSS property",
+        "scope": [
+          "support.type.property-name.css",
+          "support.type.property-name.json",
+          "support.type.property-name.ts",
+        ],
+        "settings": {
+          "foreground": "#3eff5e"
+        }
+      },
+      {
+        "scope": "constant.numeric.css",
+        "settings": {
+            "foreground": "#a22ae7"
+        }
+    },
+    {
+      "scope": "keyword.other.css",
+      "settings": {
+          "foreground": "#2DC8FF"
+      }
+  },
+    {
+        "scope": "support.constant.property-value.css",
+        "settings": {
+            "foreground": "#2DC8FF"
+        }
+    },
+      {
+        "name": "CSS #id",
+        "scope": "entity.other.attribute-name.class",
+        "settings": {
+          "foreground": "#36f9f6"
+        }
+      },
+      {
+        "name": "Pseudo CSS",
+        "scope": [
+          "entity.other.attribute-name.pseudo-element",
+          "entity.other.attribute-name.pseudo-class"
+        ],
+        "settings": {
+          "foreground": "#ddb500"
+        }
+      },
+      {
+        "name": "CSS support functions (rgb)",
+        "scope": "support.function.misc.css",
+        "settings": {
+          "foreground": "#e7eb00"
+        }
+      },
+      
+        {
+            "name": "Custom font color",
+            "scope": "entity.name.tag",
+            "settings": {
+                "foreground": "#f7358f"
+            }
+        },
+        {
+          "scope": "entity.other.inherited-class",
+          "settings": {
+              "foreground": "#ff0000",
+              
+              
+          }
+      },
+      {
+        "scope": "entity.other.attribute-name.css",
+        "settings": {
+            "foreground": "#ff0000"
+        }
+    }
+    ]
+},
+"editor.semanticTokenColorCustomizations": {
+  "enabled": true,
+  "rules": {
+    "property": {
+      "fontStyle": "italic",
+      "foreground": "#fffdfd"
+    }
+  }
+},
+  "workbench.colorTheme": "Synthwave x Fluoromachine",
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "afterDelay"
+}
