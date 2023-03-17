@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gridjs": "^6.0.6",
+    "gridjs-react": "^6.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.9"
