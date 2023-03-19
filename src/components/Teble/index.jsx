@@ -3,7 +3,7 @@ import { Container } from "./style"
 import { Grid } from 'gridjs-react';
 
 import "gridjs/dist/theme/mermaid.css";
-export const Header: React.FC = () => {
+export const Teble = () => {
   let da = 12
   return (
     <Container>
